@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{url}
+\onehalfspacing
+
+\title{Proof of Concept: User Stories}
+\author{Matthew Clark\\43695841}
+\date{\vspace{-5ex}}
+
+\begin{document}
+\maketitle
+\newpage
+\section*{User Story}
+As a historical musicologist \& computer scientist, I want to be able to be able to develop a data set which contains the metadata of popular Techno songs so I can both quantitatively choose significant songs as analytical tools for further research and for the development of a data set to be used for machine learning.
+\section*{Acceptance Criteria}
+I need to be able to:
+\begin{enumerate}
+    \item Be able to successfully obtain data using the Discogs' API
+    \item Develop a scope of techno songs that I can feasibly obtain using the API
+    \item Automate a looping process that goes through the API and pulls the required metadata and stores the metadata locally
+    \item Be able to convert the data into a re-usable format (Eg: JSON, CSV)
+    \item Clean up the data for usability and re-usability.
+\end{enumerate}
+The data I want to be able to obtain includes:
+\begin{itemize}
+    \item Artist Name
+    \item Track Title
+    \item Release Title
+    \item Track number
+    \item Year Released
+    \item Release Label
+    \item Genre(s)
+    \item Popularity Ranking
+\end{itemize}
+\section*{Project Management}
+My project management system will be Trello, and can be found using the following link:\\
+\url{https://trello.com/b/Vkgni6QN/foar705-musicologist}
+\section*{Quality Assurance}
+To maintain quality assurance, I will be using my learning journal to document any errors and bugs that I encounter, and use it to move my project forward based on my user story.
+\section*{Scope}
+My user story maintains my 2nd scope proposed in my previous PoC submission.
+\end{document}
